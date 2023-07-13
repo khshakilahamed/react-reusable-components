@@ -1,6 +1,7 @@
 import "./App.css";
 import Alerts from "./Pages/Alerts";
 import Buttons from "./Pages/Buttons";
+import Tables from "./Pages/Tables";
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
             <li className="cursor-pointer">
               <a href="#alerts">Alerts</a>
             </li>
+            <li className="cursor-pointer">
+              <a href="#tables">Tables</a>
+            </li>
           </ul>
         </div>
 
@@ -26,6 +30,9 @@ function App() {
             <Buttons />
             <hr />
             <Alerts />
+            <hr />
+            <Tables />
+            <hr />
           </div>
         </div>
       </div>

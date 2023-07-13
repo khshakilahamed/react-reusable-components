@@ -15,7 +15,7 @@ const Buttons = () => {
         <Button color="dark">Dark</Button>
       </div>
 
-      <p className="my-2 mt-3">outlined Buttons-</p>
+      <p className="my-2 mt-3">Outlined Buttons-</p>
       <div className="flex gap-3">
         <Button color="primary" variant="outlined">
           Primary
